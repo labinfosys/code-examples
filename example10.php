@@ -1,4 +1,5 @@
-﻿// плохо
+<?php
+// плохо
 $my_email->set_from('test@email.com')->add_to('programming@gmail.com')->set_subject('Methods Chained')->set_body('Some long message')->send();  
   
 // хорошо
